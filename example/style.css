@@ -1,0 +1,22 @@
+html, body {
+  height: 100%;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #eee;
+}
+#button {
+  padding: 10px 20px;
+  border: none;
+  background: #56BDEF;
+  color: #fff;
+  border-radius: 6px;
+  box-shadow: 0 4px #1974A0;
+  outline: none;
+  transition: all 0.2s ease;
+}
+#button:active {
+  background: #2082B1;
+}

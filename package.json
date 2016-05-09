@@ -1,0 +1,14 @@
+{
+  "name": "@yelo/document-title",
+  "version": "1.0.0",
+  "description": "Set the document title",
+  "main": "src",
+  "scripts": {
+    "example": "cd ./example && webpack ./entry.js ./bundle.js && anywhere"
+  },
+  "files": [
+  	"src"
+  ],
+  "author": "yelo",
+  "license": "MIT"
+}
