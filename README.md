@@ -26,5 +26,9 @@ title.source('/test.png');
 ```
 
 
+## Example
+[https://imyelo.github.io/document-title/](https://imyelo.github.io/document-title/)
+
+
 ## License
 THe MIT License
