@@ -1,4 +1,4 @@
-# @yelo/document-title
+# @maizuo-fe/document-title
 > Set the document title
 
 inspired by [mishe](https://github.com/mishe/blog/issues/57)
@@ -6,13 +6,13 @@ inspired by [mishe](https://github.com/mishe/blog/issues/57)
 
 ## Install
 ```
-npm i --save @yelo/document-title
+npm i --save @maizuo-fe/document-title
 ```
 
 
 ## Usage
 ```
-var title = require('@yelo/document-title');
+var title = require('@maizuo-fe/document-title');
 
 title('Hey Wechat');
 ```

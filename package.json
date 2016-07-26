@@ -1,5 +1,5 @@
 {
-  "name": "@yelo/document-title",
+  "name": "@maizuo-fe/document-title",
   "version": "1.0.1",
   "description": "Set the document title",
   "main": "src",
