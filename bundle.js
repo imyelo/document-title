@@ -60,7 +60,7 @@
 	}
 
 	function isQQ () {
-	  return /\sQQ/.test(window.navigator.useragent);
+	  return /\sQQ/.test(window.navigator.userAgent);
 	}
 
 	function isMQQBrowser () {
