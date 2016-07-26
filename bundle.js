@@ -56,7 +56,15 @@
 /***/ function(module, exports) {
 
 	function isWechat () {
-	  return /MicroMessenger/.test(window.navigator.userAgent);
+	  return /\sMicroMessenger/.test(window.navigator.userAgent);
+	}
+
+	function isQQ () {
+	  return /\sQQ/.test(window.navigator.useragent);
+	}
+
+	function isMQQBrowser () {
+	  return !isWechat() && !isQQ() && /\sMQQBrowser/.test(window.navigator.userAgent);
 	}
 
 	function isIOS () {
@@ -72,7 +80,7 @@
 
 	  document.title = name;
 
-	  if (isWechat() && isIOS()) {
+	  if ((isWechat() || isQQ() || isMQQBrowser()) && isIOS()) {
 	    body = document.getElementsByTagName('body')[0];
 	    iframe = document.createElement('iframe');
 	    iframe.src = options.src;
