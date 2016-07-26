@@ -80,10 +80,7 @@
 
 	  document.title = name;
 
-	  alert(window.navigator.userAgent);
-
 	  if ((isWechat() || isQQ() || isMQQBrowser()) && isIOS()) {
-	    alert('iframe')
 	    body = document.getElementsByTagName('body')[0];
 	    iframe = document.createElement('iframe');
 	    iframe.src = options.src;
